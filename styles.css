@@ -1,0 +1,77 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #34495e;
+}
+
+/* Contenedor de la evaluación */
+form#quiz-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+.question-container p {
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Opciones de respuesta */
+label {
+    display: block;
+    padding: 5px 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #3498db;
+}
+
+/* Botón de calcular */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* Resultado */
+#result {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 20px;
+}
